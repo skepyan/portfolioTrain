@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather:ital,wght@1,400;1,700&family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./style.css">
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <div class="header__container container">
+                    <a class="header__logo" href="#">
+                        <img  alt = "logo" src="./icons/logo.svg">
+                    </a>
+                    <div class="header__menu menu">
+                        <div class="menu__icon">
+                            <span class=""></span>
+                        </div>
+                        <nav class="header__menu-block">
+                            <ul class="menu__list">
+                                <li class="menu__item">
+                                    <a data-goto = ".page__skills" href="#" class="menu__link">Skills</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a data-goto = ".page__portfolio" href="#" class="menu__link">Portfolio</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a data-goto = ".page__video" href="#" class="menu__link">Video</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a data-goto = ".page__price" href="#" class="menu__link">Price</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a data-goto = ".page__contact" href="#" class="menu__link">Contacts</a>
+                                </li>
+                            </ul>
+                        </nav>     
+                        <div class="header__lng">
+                                <a class="header__lng_item header__lng_item-en" href="#">en</a>
+                                <p class="header__lng_item diveder">/</p>
+                                <a class="header__lng_item" href="#">ru</a>
+                        </div>
+                              
+                    </div>
+                </div>
+            </header>
+            <main class="page">
+                <section class="page__hero hero">
+                    <div class="hero__container container">
+                        <div class="hero__body">
+                            <h1 class="hero_title">Alexa Rise</h1>
+                            <div class="hero__text">Save sincere emotions, romantic feelings and happy moments of life together with professional photographer Alexa Rise</div>
+                           <button type="button" class="hero__button">Hire me</button>
+                        </div> 
+                    </div>    
+                </section>
+                <section class ="page__skills skills">
+                    <div class="skills__container container">
+                        <div class="skills__line line">
+                            <hr class=" line__left line__item">
+                            <h2 class=" title-all line__item">Skills</h2>
+                            <hr class=" line__right line__item">
+                        </div>
+                        <div class="skills__list">
+                            <div class="skills__item">
+                                <img class="skills__icon" src="./icons/skills1.svg" alt="photo">
+                                <h4 class="skills__item-title ">Digital photography</h4>
+                                <div class="skills__item-text">High-quality photos in the studio and on the nature</div>
+                            </div>
+                            <div class="skills__item">
+                                <img class="skills__icon" src="./icons/skills2.svg" alt="photo">
+                                <h4 class="skills__item-title">Video shooting</h4>
+                                <div class="skills__item-text">Capture your moments so that they always stay with you</div>
+                            </div>
+                            <div class="skills__item">
+                                <img class="skills__icon" src="./icons/skills3.svg" alt="photo">
+                                <h4 class="skills__item-title">Rotouch</h4>
+                                <div class="skills__item-text">I strive to make photography surpass reality</div>
+                            </div>
+                            <div class="skills__item">
+                                <img class="skills__icon" src="./icons/skills4.svg" alt="photo">
+                                <h4 class="skills__item-title">Audio</h4>
+                                <div class="skills__item-text">Professional sounds recording for video, advertising, portfolio</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class = "page__portfolio portfolio">
+                    <div class = "portfolio__container container">
+                        <div class="portfolio__line line">
+                            <hr class="line__left line__item">
+                            <h2 class="title-all line__item">Portfolio</h2>
+                            <hr class="line__right line__item">
+                        </div>
+                        <div class="portfolio__list">
+                            <button type="button" class="portfolio_list-item">Winter</button>
+                            <button type="button" class="portfolio_list-item">Spring</button>
+                            <button type="button" class="portfolio_list-item">Summer</button>
+                            <button type="button" class="portfolio_list-item">Autumn</button>
+                        </div>
+                        <div class="portfolio__photos">
+                            <div class="portfolio__first-line">
+                                <img class="portfolio__photo-item" alt ="photo" src ='./images/portfolio1.jpg'>
+                                <img class="portfolio__photo-item" alt ="photo" src ='./images/portfolio2.jpg'>
+                                <img class="portfolio__photo-item" alt ="photo" src ='./images/portfolio3.jpg'>
+                            </div>
+                            <div class="portfolio__second-line">
+                                <img class="portfolio__photo-item2" alt ="photo" src ='./images/portfolio4.jpg'>
+                                <img class="portfolio__photo-item2" alt ="photo" src ='./images/portfolio5.jpg'>
+                                <img class="portfolio__photo-item2" alt ="photo" src ='./images/portfolio6.jpg'>
+                            </div>
+                        </div>  
+                </div>  
+                </section>
+                <section class = "page__video video">
+                    <div class = "portfolio__container container">
+                        <div class="video__line line">
+                            <hr class="line__left line__item">
+                            <h2 class="title-all line__item">Video</h2>
+                            <hr class="line__right line__item">
+                        </div>
+                        <div class="video__player">
+                            <img class ="video__player-image" alt = "video" src ="./images/video-player.jpg">
+                            <img class ="video__player-logo" alt = "video_icon" src = "./icons/play-btn 1.svg">
+                        </div>
+                    </div>
+                </section>
+                
+                <section class = "page__price price">
+                    <div class = "price__container container">
+                            <div class="price__line line">
+                                <hr class="line__left line__item">
+                            <h2 class="title-all line__item">Price</h2>
+                            <hr class="line__right line__item">
+                            </div>
+                        <div class="price__list">
+                            <div class="price__list-colomn">
+                                <div class="price__list-item">
+                                    <h3 class="price__title">Standart</h3>
+                                    <div class="price__price">500 $</div>
+                                    <p class="price__text">One location</p>
+                                    <p class="price__text">120 photos in color</p>
+                                    <p class="price__text">12 photos in retouch</p>
+                                    <p class="price__text">Readiness 2-3 weeks</p>
+                                    <p class="price__text">Make up, visage</p>
+                                    <button type="button" class="price__button">Order shooting</button>
+                                </div>
+                            </div>
+                            <div class="price__list-colomn">
+                                <div class="price__list-item">
+                                    <h3 class="price__title">Premium</h3>
+                                    <div class="price__price">700 $</div>
+                                    <p class="price__text">One or two locations</p>
+                                    <p class="price__text">200 photos in color</p>
+                                    <p class="price__text">20 photos in retouch</p>
+                                    <p class="price__text">Readiness 1-2 weeks</p>
+                                    <p class="price__text">Make up, visage</p>
+                                    <button type="button" class="price__button">Order shooting</button>
+                                </div>
+                            </div>
+                            <div class="price__list-colomn">
+                                <div class="price__list-item">
+                                    <h3 class="price__title">Gold</h3>
+                                    <div class="price__price">1000 $</div>
+                                    <p class="price__text">Tree locations or more</p>
+                                    <p class="price__text">300 photos in color</p>
+                                    <p class="price__text">50 photos in retouch</p>
+                                    <p class="price__text">Readiness 1 weeks</p>
+                                    <p class="price__text">Make up, visage, hairstyle</p>
+                                    <button type="button" class="price__button">Order shooting</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class = "page__contact contact">
+                    <div class="contact__container container">
+                        <div class="contact__form-block">
+                            <div class="contact__block-title">
+                                <h2 class ="contact__title title-all">Contact me</h2> 
+                            </div>    
+                            <div class = "contact__wrapper">                                                    
+                                <form action="#" method="get" class="contact__form">
+                                    <div class="contact__form-list">
+                                        <div class="contact__form-item">
+                                            <input class = "contact__form-email" type = "email" name = 'email' placeholder="E-mail">
+                                        </div>
+                                        <div class="contact__form-item">
+                                            <input class = "contact__form-tel" type = "tel" name = 'tel' placeholder="Phone">
+                                        </div>
+                                        <div class="contact__form-item">
+                                            <textarea class = "contact__form-message" name = "message" placeholder="Message"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="contact__form-down">
+                                        <button type="submit" class="page__form-btn">Send message</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer >
+                <div class="footer_container container">
+                    <div class = "footer__wrapper">
+                        <div class = "footer__copyright">
+                            <img alt ="copyright" alt = "copyright" class = "footer__copyright-item footer__copyright-inform" src="./icons/copyright.svg">
+                            <p class = "footer__copyright-item footer__copyright-inform">2022</p>
+                            <a class = "footer__copyright-item footer__copyright-inform footer__copyright-git" href = '#'>github</a>
+                        </div>
+                        <div class="footer__information">Rolling Scopes School</div>
+                        <ul class = "footer__list">
+                            <li class = "footer__item">
+                                <a class = "footer__link" href="#"> 
+                                    <img class = "footer__item"alt ="inst" src="./icons/inst.svg">
+                                </a>
+                            </li>
+                            <li class = "footer__item">
+                                <a class = "footer__link" href="#"> 
+                                    <img class = "footer__item"alt ="fb" src="./icons/fb.svg">
+                                </a>
+                            </li>
+                            <li class = "footer__item">
+                                <a class = "footer__link" href="#"> 
+                                    <img class = "footer__item"alt ="tw" src="./icons/tw.svg">
+                                </a>
+                            </li>
+                            <li class = "footer__item">
+                                <a class = "footer__link" href="#"> 
+                                    <img class = "footer__item"alt ="pinterest" src="./icons/pinterest.svg">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </footer>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
